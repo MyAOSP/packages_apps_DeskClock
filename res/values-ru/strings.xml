@@ -31,6 +31,7 @@
     <string name="default_label" msgid="5590025289805630372">"Будильник"</string>
     <string name="set_alarm" msgid="9148359866152726808">"Установить будильник"</string>
     <string name="alarm_vibrate" msgid="3476686921490362230">"Вибросигнал"</string>
+    <string name="alarm_incvol">Увеличенная громкость</string>
     <string name="alarm_repeat" msgid="7242985466344233206">"Дни недели"</string>
     <string name="alert" msgid="6539852766423700221">"Звук сигнала"</string>
     <string name="time" msgid="8067216534232296518">"Время"</string>
@@ -127,4 +128,27 @@
     <string name="loading_ringtone" msgid="6523322777415268044">"Загрузка мелодии звонка..."</string>
     <string name="control_set_alarm" msgid="2194676418924016327">"Установить будильник"</string>
     <string name="control_set_alarm_with_existing" msgid="1128169496817859490">"Будильник установлен на <xliff:g id="TIME">%s</xliff:g>"</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Переворот</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Действия при переворачивании телефона</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">При переворачивании телефона
+        <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Entries listed in the setting for the flip action setting. -->
+    <string-array name="flip_action_entries">
+      <item>Ничего не делать</item>
+      <item>Отложить будильник</item>
+      <item>Выключить будильник</item>
+    </string-array>
+
+    <!-- Setting labels on Set alarm screen: Select profile to change to -->
+    <string name="alarm_profile">Профиль</string>
+    <string name="alarm_profile_no_change_profile">Без изменения профиля</string>
+    <string name="alarm_profile_summary_no_change">Не изменять профиль при срабатывании будильника</string>
+    <string name="alarm_profile_summary_change_to">Изменять профиль на <xliff:g id="profile">%s</xliff:g> при срабатывании будильника</string>
 </resources>

@@ -19,7 +19,7 @@
     <color name="ampm_on">#ffffffff</color>
     <color name="time_text_color">#E6FFFFFF</color>
     <color name="ampm_text_color">#99FFFFFF</color>
-    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_color">@android:color/holo_blue_dark</color>
     <color name="screen_saver_dim_color">#FF001634</color>
     <color name="action_bar_button_text_color">#FFFFFF</color>
 
